@@ -173,7 +173,7 @@ rövidíthető és sosem szűrhető: ha egy szabály szövegére szükség van, 
 fájlból kell **teljes egészében** beolvasni. `global/` = mindenhol · `fdp-global/` = FDP-repóban ·
 `project-internal/` = projekt-workspace-ben · `project-type/` = projekt-típus szerint.
 
-**`global/` — 47 szabaly**
+**`global/` — 50 szabaly**
 
 | ruleId | Cim | Fajl |
 |---|---|---|
@@ -192,6 +192,7 @@ fájlból kell **teljes egészében** beolvasni. `global/` = mindenhol · `fdp-g
 | `core-fix-forward` | Fix-forward only | `fdp-documentations/rules/global/core-fix-forward.md` |
 | `core-framework-upgrade-cadence` | Framework upgrade cadence — even major, latest-minus-one, once a year | `fdp-documentations/rules/global/core-framework-upgrade-cadence.md` |
 | `core-full-autonomy` | Full autonomy toward the best long-term solution | `fdp-documentations/rules/global/core-full-autonomy.md` |
+| `core-human-attention-last-resort` | Emberi figyelmet CSAK kimerített lehetőségek után kérj — és a csengő sosem az üzenet | `fdp-documentations/rules/global/core-human-attention-last-resort.md` |
 | `core-impact-check` | Impact + existing-solution check | `fdp-documentations/rules/global/core-impact-check.md` |
 | `core-measure-twice` | Measure twice, cut once | `fdp-documentations/rules/global/core-measure-twice.md` |
 | `core-never-hold-push` | Never hold a green push | `fdp-documentations/rules/global/core-never-hold-push.md` |
@@ -208,6 +209,7 @@ fájlból kell **teljes egészében** beolvasni. `global/` = mindenhol · `fdp-g
 | `core-patterns-first` | Patterns first | `fdp-documentations/rules/global/core-patterns-first.md` |
 | `core-planning-layers` | 3-layer planning structure | `fdp-documentations/rules/global/core-planning-layers.md` |
 | `core-record-learnings` | Record successes and failures | `fdp-documentations/rules/global/core-record-learnings.md` |
+| `core-rename-annotate-not-rewrite` | core-rename-annotate-not-rewrite (global, hard rule) | `fdp-documentations/rules/global/core-rename-annotate-not-rewrite.md` |
 | `core-review-until-clean` | Review-fix loop until two consecutive clean passes — run it at the END of the work | `fdp-documentations/rules/global/core-review-until-clean.md` |
 | `core-rich-error-handling` | Rich error handling everywhere | `fdp-documentations/rules/global/core-rich-error-handling.md` |
 | `core-rule-authoring` | Where a rule goes, and when it becomes active | `fdp-documentations/rules/global/core-rule-authoring.md` |
@@ -219,6 +221,7 @@ fájlból kell **teljes egészében** beolvasni. `global/` = mindenhol · `fdp-g
 | `core-stale-doc-marking` | core-stale-doc-marking (global, hard rule) | `fdp-documentations/rules/global/core-stale-doc-marking.md` |
 | `core-stt-input` | Handle user input critically (STT-aware) | `fdp-documentations/rules/global/core-stt-input.md` |
 | `core-substantive-work-first` | Substantive product work comes first — a review round is what follows the work, never what replaces it | `fdp-documentations/rules/global/core-substantive-work-first.md` |
+| `core-swearing-is-scope-failure` | Swearing is a SCOPE-ALIGNMENT FAILURE signal — never a tone issue | `fdp-documentations/rules/global/core-swearing-is-scope-failure.md` |
 | `core-typescript-only` | TypeScript only | `fdp-documentations/rules/global/core-typescript-only.md` |
 | `core-ux-qa-naive-user` | Anything the user can SEE gets a naive-user UX-QA pass — as a deliverable, not an afterthought | `fdp-documentations/rules/global/core-ux-qa-naive-user.md` |
 | `core-wakeup-state-file` | core-wakeup-state-file (global, hard rule) | `fdp-documentations/rules/global/core-wakeup-state-file.md` |
