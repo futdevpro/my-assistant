@@ -43,8 +43,9 @@ hiányzik, az a **jelen állapot**.
 | **K (09-15)** 🎂 | — | ⛔ **szülinap — semmi rendszerezés** |
 | **Sze (09-16)** | 🧹 **élettér** | mi az **elfogadható alap-szint**, és mi a **heti minimum**? |
 | **Cs (09-17)** | 🍽️ + 🧼 **ellátás / egészség** | kaja-rendelés ritmusa + az arc-mosás **miért akad el** |
-| **P (09-18)** | 🚶 **mozgás** | a hegy heti 2× **reális-e**, vagy át kell szabni? |
-| **Szo-V (09-19-20)** | 💼 **munka-keret** | a napirend **hol** hagy helyet a munkának *(és hol NEM)* |
+| **P (09-18)** | ⚠️ **ÜTKÖZIK** — 📅 **céges nagy találkozó** *(`org:task:6aa57bc8…`, prio 200)* | 🔴 a 🚶 **mozgás**-zóna innen **elmozdul** — hova, azt a lenti tisztázás dönti el |
+| **Szo (09-19)** | 🚶 **mozgás** *(ide csúsztatva)* | a hegy heti 2× **reális-e**, vagy át kell szabni? |
+| **V (09-20)** | 💼 **munka-keret** | a napirend **hol** hagy helyet a munkának *(és hol NEM)* |
 
 ---
 
@@ -222,3 +223,65 @@ találgatom**. 🙋 **Kérdés a hét tervezése előtt**, mert ez **eldönti, m
 
 🔗 `org:task:6aa57bc8766c802935c42413` *(2026-09-18, prio 200)*
 ⚠️ A **„QD"** az átiratból jött — lehet STT-hiba; ⛔ nem értelmeztem át.
+
+
+---
+
+## 🙋 A DÖNTÉSI CSOMAG — KÉSZ, kimehet, amint JELZI, hogy tervezhetünk
+
+> **Írva:** 2026-09-13 06:20 · ⛔ **NEM ment ki** — az owner ekkor a hétvégi kikapcsolódás
+> zónájában volt *(mérve: ébren 17:23 óta, SteamWorld Build)*. `focus-includes-life`:
+> ⛔ nem tolok munka-tervezést a pihenése elé.
+
+⭐ **MIÉRT VAN ELŐRE MEGÍRVA:** ő maga kérte, hogy *„ma-holnap"* készüljünk el — a készenlét
+tehát **az én dolgom**, a **küldés pillanata** viszont **az ő jelzésétől** függ.
+⛔ Nem kérdezem meg, hogy „mikor tervezzünk" — ez is üzenet lenne.
+
+### A KIKÜLDÉS FELTÉTELE — mindhárom kell
+
+1. ✅ **Ő nyit** a jövő hétre *(„tervezzünk", „mi lesz a héten", vagy bármi hasonló)* —
+   ⛔ **VAGY** eljön **hétfő (09-14)** és ő maga kezd napot
+2. ⛔ **Nem** közvetlenül ébredés után *(`focus-includes-life` — az ébredés utáni ablakban
+   ⛔ semmi javaslat, semmi feladat)*
+3. ⛔ **Nem** DND-időben
+
+### A SZÖVEG — ⭐ szó szerint ez megy ki, EGY üzenetben
+
+```
+📅 Jövő hét — két dolog, és mindkettő rövid.
+
+1️⃣ ELŐBB EGY TÉNY, mert ez dönt el mindent:
+Szeptember 11-én azt mondtad, jövő héten szabadságon vagy (09-14…20).
+Szeptember 12-én azt, hogy pénteken (09-18) céges nagy találkozó van.
+👉 A szabadság melyik napokra szól, és a pénteki találkozó beleesik-e?
+   (Ez adja meg, mennyi valódi munkaidő van a héten.)
+
+2️⃣ ÉS EGY DÖNTÉS:
+Három munka-irányt neveztél meg — a sales-agentet („ott ez korlátozott"),
+a mikromunkákat („hozzanak pénzt") és a rendszer-kiadást
+(Master Prompter, Adventor, a flotta bázisrendszerei — „rengeteg munka").
+👉 Melyik KETTŐT hagyjuk ÁLLNI?
+
+Nem azt kérdezem, melyikkel kezdjünk — azt kérdezem, melyik kettőt tesszük le
+tudatosan. Magad kérted, hogy segítsek fókuszálni; három párhuzamos irány
+ugyanoda vezet, ahonnan el akartunk jönni.
+
+⏱️ Ha segít: a mikromunka hoz leghamarabb pénzt (napok), de nem tudjuk,
+van-e és mennyit fizet. A rendszer-kiadás a leghosszabb. A sales-agent
+középen van, és te magad mondtad rá, hogy korlátozott.
+```
+
+### ⚠️ AMIT EBBEN SZÁNDÉKOSAN NEM ÍRTAM BELE
+
+| ⛔ Kihagyva | Miért |
+|---|---|
+| a **self-development zóna-terv** *(H/K/Sze/Cs…)* | `focus-support`: **egy üzenet = egy téma**. A zóna-terv a hét **elején**, naponta egy kérdéssel jön |
+| az **újra-alapvonal mérése** *(1 132 vs. 43 bejegyzés)* | mérési adat ⇒ a **repóba** való, ⛔ nem Discordra *(`discord-message-style`)* |
+| a **„QD"** feloldása | STT-ből jött, ⛔ nem értelmezem át *(`ask-back-on-garbled` — ha számít, ő mondja meg)* |
+| fájl-útvonal, doksi-hivatkozás | `approval-must-be-self-contained`: telefonról megnyithatatlan ⇒ **megválaszolhatatlan** |
+
+### ⇒ AMI A VÁLASZ UTÁN KÖVETKEZIK — ⛔ nem előbb
+
+- a **pénteki nap** zónája véglegesedik a fenti táblázatban
+- a **megmaradó EGY munka-irányhoz** csinálok konkrét lépés-listát
+- a **self-development zóna-kérdések** naponta egyesével indulnak *(H-tól)*

@@ -120,3 +120,46 @@ A Surviving Mars a nyilvántartásban **0 óra** — ő meg *„valamelyik este"
 🔴 **Ezért a Steam-játékidő mostantól:** ✅ **szűrésre** *(„mutass építkezős címeket")* ·
 ⛔ **állításra SOHA** *(„ezt még nem játszottad")*.
 Kanonikus: [[dev-projects-skew-metrics]].
+
+
+---
+
+## ⭐ ÖTÖDIK MEGERŐSÍTÉS — a képlet ÖNÁLLÓAN is bevált (mérve 2026-09-13 06:06)
+
+🔴 **Nem én ajánlottam, és mégis pontosan a képlet szerint választott.**
+
+| Mérés | Érték | Honnan |
+|---|---|---|
+| amit MOST játszik | **SteamWorld Build** | jelenlét-napló, `processName`, 03:42 → 06:06 **folyamatosan** |
+| telepítve | **2026-09-12 21:55** | `appmanifest_2134770.acf` · `LastUpdated` |
+| először elindítva | **2026-09-13 03:42** | ugyanaz · `LastPlayed` |
+| szerepel-e a könyvtár-pillanatképünkben? | ⛔ **NEM** | a `installed-games.md` **2026-09-12 04:30**-kor készült — **17 órával korábban** |
+
+### Mit igazol ez
+
+✅ **A képlet jó:** a SteamWorld Build **kolónia-építő, autonóm lakókkal, minimális akcióval** —
+pont az a sáv, amit a négy kör alatt kihámoztunk *(sci-fi/steampunk világ · a népek maguktól
+pakolásznak · rendszert rakok, nem mikromenedzselek)*.
+⭐ **És ⛔ NEM az én listámról jött** — ő maga vette meg és telepítette. ⇒ A képlet nem az én
+találgatásom volt, hanem **az ő preferenciájának a leírása** — ezért talál akkor is, amikor
+nem én választok.
+
+### ⛔ AMIT NEM CSINÁLOK
+
+⛔ **Nem szólok érte, és ⛔ nem ajánlok mellé semmit.** A lezárás szabálya változatlan:
+*amint döntés van, nincs több javaslat.* Egy *„látom, a SteamWorld Buildet tolod — akkor még
+jó lehet a…"* üzenet **pont visszavinné** a bénultságba.
+⭐ Ráadásul hétvégi kikapcsolódás-zóna van *(`focus-includes-life`)*.
+
+### 🔴 ÉS EGY ÖTÖDIK MEGERŐSÍTÉS A MÉRŐESZKÖZRŐL IS
+
+A könyvtár-pillanatkép **17 óra alatt elavult** — egy olyan címmel, ami **most fut a gépén**.
+
+```
+⛔ „ez nincs meg neked"      — a pillanatkép nem tudhatja
+⛔ „ezt még nem játszottad"  — a pillanatkép nem tudhatja
+✅ „mutass építkezős címeket" — erre jó
+```
+
+⇒ A [[dev-projects-skew-metrics]] „a 0 nem bizonyíték" szabálya **kiterjed a hiányzó SORRA is**:
+nem csak a **nulla óra** félrevezető, hanem az is, ha a cím **egyáltalán nem szerepel** a listában.

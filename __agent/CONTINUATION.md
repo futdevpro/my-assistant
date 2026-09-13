@@ -4,7 +4,68 @@
 > A **feladat + szabályok**: `__agent/plans/discord-two-way-hyperplan/hyperplan.plan.md`
 > (a tetején a progress-blokk). Itt **csak az állapot** van — a terv tartalma nem másolódik ide.
 
-**Utoljára frissítve:** 2026-09-12 21:05
+**Utoljára frissítve:** 2026-09-13 06:30
+
+---
+
+## 🌅 2026-09-13 (V) 06:05 KÖR — CSENDES MUNKA, ⛔ nulla üzenet
+
+⚠️ **A nap NEM váltott:** az owner **17:23 (09-12) óta ébren** *(≈12,7 óra)*, most **SteamWorld
+Build**-et játszik. ⇒ ⛔ **nincs napindítás** *(`day-boundary-is-sleep`)*, és ⛔ nem szóltam neki.
+
+| Ellenőrzés | Eredmény |
+|---|---|
+| `ma comm doctor` | ✅ **14/14 zöld** |
+| `ma comm audit` | ✅ 2 owner-üzenet a csatornán, **mind megvan** |
+| DEV `inspect` | `waiting-input`, **üres sor** — minden tétele kész vagy owner-kapun áll |
+| organizer | ✅ **ÉL** *(`ping` ok)* — ⭐ a korábbi „leállt" állapot elmúlt |
+
+### 🔴 A KÖR LEGFONTOSABB LELETE — a BELÉPŐ FÁJLOM volt elavult
+
+A `STATE-NOW.md` **négy napja** állt *(2026-09-09)*, és minden körben egy **lezárt** feladatra
+küldött: *„📞 Telekom — TEENDŐ MINDEN KÖVETKEZŐ KÖRBEN, amíg meg nem történik"*.
+✅ **A Telekom valójában 2026-09-11 16:00-kor lezárult** *(az owner felhívta őket; a Dominó-szám
+egy hiányzó adategyeztetés miatt volt kikapcsolva)* — az akció-napló `state-change` sora bizonyítja.
+
+⭐ **A tanulság, ami túlmutat ezen az egy fájlon:** a `STATE-NOW.md` azért készült, hogy a
+kompaktálás **ne ejtse ki** — de az elavulás ellen ez **nem véd**. Egy friss session pontosan
+azt hitte volna el, ami ott áll. ⇒ **A belépő fájl frissessége körönként ellenőrizendő**,
+nem a nagy fájloké.
+📌 Újraírva *(4,1 kB)*, az előző: `__agent/_archive/STATE-NOW-2026-09-09.md`.
+
+### ✅ AMIT ELVÉGEZTEM
+
+| # | Mi | Hol |
+|---|---|---|
+| 1 | 📅 **A jövő heti döntési csomag MEGÍRVA, kiküldésre készen** — szó szerinti üzenet-szöveggel, kiküldési feltétellel | `current/self-development-week-2026-09.md` §„A DÖNTÉSI CSOMAG" |
+| 2 | ⚠️ **A saját hét-vázlatom ÜTKÖZÉSE javítva** — P (09-18) mozgás-zóna ⇄ **céges nagy találkozó** *(prio 200)*; a mozgás **szombatra** csúszott, a péntek **feltételes** | ugyanott, a nap-táblázat |
+| 3 | 🎮 **Ötödik megerősítés a játék-képletre — MÉRVE** | `current/notes/game-choice-paralysis.md` |
+| 4 | 📍 **`STATE-NOW.md` újraírva** | `__agent/STATE-NOW.md` |
+
+### 🎮 A JÁTÉK-MÉRÉS — ⭐ a képlet ÖNÁLLÓAN is bevált
+
+| Mérés | Érték |
+|---|---|
+| most játssza | **SteamWorld Build** *(03:42 → 06:06 folyamatosan)* |
+| telepítve | **2026-09-12 21:55** *(`appmanifest_2134770.acf`)* |
+| a könyvtár-pillanatképünkben szerepel? | ⛔ **NEM** — az **2026-09-12 04:30**-kor készült, **17 órával korábban** |
+
+⭐ **Nem az én listámról jött** — maga vette meg —, és **pontosan a képlet szerinti**:
+kolónia-építő, autonóm lakókkal, minimális akcióval. ⇒ A képlet nem találgatás volt, hanem
+**az ő preferenciájának a leírása**.
+⛔ **Nem szóltam érte, és nem ajánlok mellé semmit** — a lezárás szabálya változatlan.
+🔴 **És egy mérőeszköz-tanulság:** a Steam-pillanatkép **17 óra alatt elavult** ⇒ a „nincs benne
+a listában" **ugyanúgy nem bizonyíték**, mint a „0 óra".
+
+### 🔴 EGY FÜGGŐ ÍGÉRET, AMIT MOST ÍRTAM KI ÉLESEN
+
+A **hangos bejelentkezés** *(„jelentkezz be, hogy halljam")* **nem történt meg** — pedig a
+felolvasás kódja kész. ⚠️ Az **élő, hallható próba** viszont **nincs igazolva**, ⛔ ezt nem
+állítom késznek. **A kiváltó pillanat:** amikor **ŐMAGA szólít meg** legközelebb, ébren, itthon —
+⛔ nem hajnali 6-kor, játék közben.
+
+---
+
 
 ---
 

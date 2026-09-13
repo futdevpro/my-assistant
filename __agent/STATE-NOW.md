@@ -1,148 +1,88 @@
 # 📍 ÁLLAPOT MOST — a rövid, MINDIG teljesen elolvasható belépő
 
 > 🔴 **EZT OLVASD ELŐSZÖR.** Szándékosan **4 kB alatt** marad, hogy **soha ne csonkolódjon**.
-> A részletes történet: `__agent/CONTINUATION.md` *(148 kB — oda csak célzottan, `grep`-pel)*.
+> A részletes történet: `__agent/CONTINUATION.md` *(nagy — oda csak célzottan, `grep`-pel)*.
 >
-> ⚠️ **MIÉRT LÉTEZIK (mérve 2026-09-08):** a `CONTINUATION.md` akkorára nőtt, hogy **a saját
-> horgonyomat sem találtam meg benne**, és egy csonkolt előnézet **a fejlécnél elakad**. Ugyanez
-> történt az `AGENT_BUS.md`-nél: `tail`-lel néztem, és **tévesen jelentettem**, hogy az FDP
-> asszisztens nem válaszolt. ⇒ A nagy fájl **nem hiba, de nem is belépő**.
+> 🔴 **MIÉRT LETT ÚJRAÍRVA (2026-09-13 06:25):** az előző változat **négy napja állt**, és
+> minden körben egy olyan feladatra küldött *(📞 Telekom)*, ami **2026-09-11 16:00-kor lezárult**.
+> ⭐ **A belépő fájl elavulása a legdrágább elavulás** — ⛔ ezt körönként ellenőrizni kell.
+> Az előző változat: `__agent/_archive/STATE-NOW-2026-09-09.md`.
 
-**Frissítve:** 2026-09-09 16:05
+**Frissítve:** 2026-09-13 06:25 *(mérve)*
 
-## 🔴 ORGANIZER LEÁLLT — egy SÜRGŐS owner-feladat csak tartalékban van
+---
 
-**Mérve 2026-09-10 19:09:** `fo organizer.ping` és `fo tasks.create` egyaránt **`fetch failed`**.
+## 🗓️ HOL TARTUNK — 2026-09-13, VASÁRNAP
 
-**Az érintett tétel:** 📞 **Telekom felhívása munkaidőben — letiltották a számát.**
-Owner: *„Nagyon fontos."* Esedékes: **2026-09-11 munkaidőben**.
-
-⚠️ **Ez a tétel NEM tekinthető rögzítettnek**, amíg az organizerbe nem kerül át
-*(`recording-discipline.md`: a lokál-only rögzítés **félrevezető**)*.
-📌 **Tartalék helye:** `current/tasks/inbox.md`.
-
-**TEENDŐ MINDEN KÖVETKEZŐ KÖRBEN**, amíg meg nem történik:
-```bash
-fo organizer.ping          # el-e?
-# ha igen: fo tasks.create --title "📞 Telekom …" --due-date 2026-09-11T09:00:00+02:00 --priority 125
-# majd az inbox.md-ből KIVEZETNI
-```
-
-## 🔊 FÜGGŐ ÍGÉRET — HANGOS BEJELENTKEZÉS, ha a felolvasás kész
-
-> **Owner, 2026-09-10 19:06 (hangcsatorna):** *„Majd hogyha elkészült ez a fejlesztés és **tudsz
-> már beszélni**, akkor **jelentkezz be, hogy halljam**."*
-
-🔴 **EZ EGY IGÉRET, AMIT NEM SZABAD ELFELEJTENI** — és nem az emlékezetemre bízom.
-
-**A kiváltó feltétel:** a hang-felolvasás *(T-59 / a DEV 2. pontja)* **készen van és működik**.
-**A teendő akkor:** **hangosan** megszólalni a `honnie-place` csatornában — nem szövegben
-jelenteni, hogy „kész", hanem **hallhatóan bejelentkezni**.
-
-**Az ellenőrzés minden körben:** `git log --oneline -8` → van-e a felolvasást lezáró DEV-commit,
-és `ma comm doctor` → bent ülünk-e a hang-csatornában.
-⚠️ ⛔ **Ne a saját megérzésemre** — a DEV `AGENT_BUS`-jelentése vagy a commit a bizonyíték.
-
-📌 **A hang adott:** `MA_ELEVENLABS_VOICE_ID` → „Honnie" *(hu, generated)*, a kulcs `pro`.
-
-## 🛰️ T-76 — ÉLŐ OVERSEER-FIRST STÁTUSZTÜKÖR
-
-✅ Félórás frissítés; Test/Production Server, Test/Production Webhook, Gateway, Overseer,
-Organizer külön. Élő pulzus: `T-SRV✅ P-SRV✅ T-WH✅ P-WH⚠️ GW⚠️ OVS✅ ORG✅`.
-A két warning lejárt TLS. Server 105/105; C-49 használati jóváhagyásra vár.
-
-## Ma
-
-**2026-09-08, kedd — AI Summit 2. nap.** Az owner ~02:17-kor feküdt le.
-A kész terv: `current/events/2026-09-08-summit-day2-plan.md`.
-
-## ✅ HELYREÁLLÍTVA — 2026-09-10 18:02, minden felügyelet alatt
-
-| | Állapot |
+| | Mérve |
 |---|---|
-| my-assistant szerver | ✅ `/health` **200** *(18:00)* |
-| Discord-figyelő | ✅ **a szerver indította** *(pid 53064)* — a kézit leállítottam, a felügyelet átvette |
-| Hang-csatorna | ✅ bent ül *(`MA-VOICE-JOINED` 18:01:53)* |
-| Jelenlét-figyelő | ✅ friss adat, az owner **aktív** |
+| az owner | **ÉBREN**, a gépnél — **SteamWorld Build**, 03:42 óta |
+| ébren van | **17:23 (09-12) óta ≈ 12,7 óra** ⇒ ⛔ **nap-váltás NEM történt** *(`day-boundary-is-sleep`)* |
+| zóna | 🎉 **kikapcsolódás** — a 3 napos szülinapi hétvége **utolsó napja** |
+| rendszer | ✅ **minden zöld** — `comm doctor` 14/14, csatorna tiszta, sor üres |
 
-### 📊 A mai kiesés végösszege
+### ⛔ EBBŐL MI KÖVETKEZIK RÁM
 
-**Reboot 09:57 → a szerver újra elérhető 18:00.** Ebből:
-**~6 óra** = **senki nem vette észre** *(erre jött az `ENTRY.md` **0a** lépés)* ·
-**~2 óra** = **maga a pipeline** *(erre való a BFR **(B)** igénye: a szerver induljon elsőnek)*.
+⛔ **Nem tolok elé munkát, tervet, javaslatot.** Ha nincs valódi teendője: **egy emoji**, ⛔ nem
+szöveg. A hangszóró **⛔ tilos** *(6 óra van, és vendég is lehet a házban)*.
 
-### ⭐ Két saját javítás ÉLESBEN igazolva
+---
 
-- `comm doctor` LDP-sor: *„a pipeline KÉSZ, ezért az állapot-fájl 69 perce **jogosan pihen**.
-  ⚠️ Ez NEM beragadás"* ⇒ a négyszer félrevezető hamis riasztás **megszűnt**.
-- Hang-csatorna sor: *„BE VAN ÁLLÍTVA, de a figyelő még nem jelentett róla"* ⇒ a korábbi
-  **hamis** „nincs beállítva" helyett most **őszinte „nem tudom"**.
+## 🔴 EGY FÜGGŐ ÍGÉRET — HANGOS BEJELENTKEZÉS
 
-### ⚠️ Saját közeli hiba ebben a körben
+> **Owner, 2026-09-10 19:06:** *„Majd hogyha elkészült ez a fejlesztés és **tudsz már beszélni**,
+> akkor **jelentkezz be, hogy halljam**."*
 
-A jelenlét-figyelőt **„NEM FUT"-ként jelentettem** — a folyamat-keresésem **mintája** nem
-illeszkedett. A **hatás** viszont ott volt: a jelenlét-adat **frissen** érkezett.
-📌 Ugyanaz a lecke harmadszor: **a proxyt mértem, nem a hatást.** A folyamat-lista *proxy*;
-az **adat frissessége** a hatás.
+| | |
+|---|---|
+| a felolvasás **kódja** | ✅ kész *(FIFO sor · megáll, amíg ő beszél · hang-csatorna)* |
+| élő, **hallható** próba | ⚠️ **NINCS IGAZOLVA** — ⛔ ezt nem állítom késznek |
+| megtörtént-e a bejelentkezés | ⛔ **NEM** *(az akció-naplóban nincs nyoma)* |
 
-## 🙋 HÁROM DÖNTÉS VÁR RÁD — ébredéskor egy üzenetben megy ki
+🔴 **A HELYES PILLANAT — ⛔ nem most:** hajnali 6, játszik, hétvége. Egy hangos megszólalás
+**félbevágná**, és pont az a panasza, hogy ilyenkor elveszem a kedvét.
+⭐ **A kiváltó:** a **következő alkalom, amikor ŐMAGA szólít meg** *(hang vagy Discord)* és
+ébren, itthon van ⇒ **akkor hangosan**, ⛔ nem szövegben jelentem, hogy kész.
 
-⚠️ **Önmagában érthetően fogalmazva** *(`approval-must-be-self-contained.md`)* — nem kell
-megnyitnod semmit. A DEV részletes jelentése: `AGENT_BUS` **AGB-2026-09-09-01**.
+---
 
-### 1️⃣ Hozzányúlhatok az ÁTEMELT CCAP-kódhoz — csak naplózásért?
-9 néma `catch` maradt a `cli/src/_modules/{voice,voice-output,elevenlabs}`-ban. Ezekre él a
-*„nagyon törékeny az a kód, de cserében meg egész jól működött"* szabályod.
-**A kérés:** beírhatunk-e **egyetlen napló-sort** a néma ágakba — a **viselkedés változatlan**,
-csak látszana, ha elnyel valamit. **A) igen, csak naplózás · B) ne nyúljatok hozzá.**
+## 🙋 AMI AZ OWNERRE VÁR — a sorrend NEM változott
 
-### 2️⃣ A dashboard hibái legyenek hangosak, vagy maradjanak csendesek?
-39 helyen a riport- és adatolvasók hiba esetén ma **üres listát** adnak, nem hibát. A szabály
-azt kérné, hogy **dobjanak**.
-**A)** marad a mai csendes *(de mostantól naplózott)* viselkedés — a review piros marad ·
-**B)** hangos hiba: egy olvashatatlan riport-fájl **500-as hibát** adna a dashboardon üres
-panel helyett. ⚠️ **Ez látható változás.**
-⭐ **A DEV javaslata:** **(B)** a riport- és wave-olvasókra *(épp az a panaszod, hogy a rendszer
-nyugalmat jelent hiba közben)*, **(A)** a naplózásra és a szórásra *(ott a kaszkád rosszabb)*.
-
-### 3️⃣ Ráengedhetjük az autofixet a konvenció-hátralékra?
-A teljes „zöld" ma **2 231 találat** — a többsége **konvenció**, nem hiba *(`no-as-cast` ~80,
-`no-plain-function-export` ~60, `one-export-per-file` ~35, sor-hossz, import-sorrend…).
-Javításuk **szerkezeti átalakítás** az egész kódbázison. Van gépi segítség: `dc rev --fix`.
-**A) ráengedhető** *(egyesével, teszt minden lépés után)* · **B) várjon**, amíg a fontosabb
-dolgok elkészülnek.
-
-## 🙋 AMI RÁD VÁR
-
-1. ~~**A DEV-et neked kell újraindítanod.**~~ ⛔ **TÉVEDTEM, visszavonva (00:25).** A DEV
-   **fut**, és épp a review-találatokat javítja *(`a279980`: client + browser-extension + relay
-   ZÖLD)*. ⚠️ A promptom **átment**, csak késve indult — én a küldés után **azonnal** néztem meg
-   az állapotot, és a `completed`-ből elhamarkodottan következtettem. ⇒ **Nincs teendőd.**
-2. ✅ **Lezárható az organizerben:** *„LDP működés bevitele a Bedrock-ba"* — a
-   `BFR-MYASSISTANT-001` leadva. ⭐ A lezárás **regenerálja az ismétlődéseket**.
-3. 🔓 **Képesség-jóváhagyás** — 25 ⏳ / 1 ✅. Az üresjárati sávom gyakorlatilag üres.
-4. 👤 **A cégedről** szóló összeállítás — te jelezted, hogy kell (a profil-kivonat végén).
-
-## ✅ T-68 — ÉLŐBEN IGAZOLVA (00:00)
-
-A ledgerben **két feloldott** hangüzenet, átirattal együtt
-*(`~/.config/my-assistant/stt-ledger/`)*. ⇒ A „melyik üzenethez melyik transzkript tartozik"
-kérése **működik**, nem csak fixture-ön. A retry-sor üres.
-
-## 🤝 Akiknek kiadtam
-
-| Kinek | Mit | Állapot |
+| # | Mi | Állapot |
 |---|---|---|
-| **DEV** `ccs-d5027942-mtroz7ve` | hang-csatorna (T-22) | 630/630 zöld · ⚠️ a T-52-t késznek jelentette, de az owner **színes élő sávját** nem építette meg ⇒ visszanyitva |
-| **FDP** `ccs-e4e4fadf-mtroyj33` | pénzügy + bérszámfejtés | ✅ **kész — a levél kiment 11:08:26**. Már csak GEOK válaszára vár (külső fél) |
+| 1 | 🧑 **LinkedIn profil-szöveg** beillesztése — `LinkedIn → Profil` *(2 mező, 0 limit-túllépés)* | ⏳ kapu |
+| 2 | ✍️ **poszt-piszkozat** `keep-the-raw-artifact` — kimehet-e, kell-e kép | ⏳ |
+| 3 | 🗓️ `ma email auth --account default` ⇒ utána látom a mítingjeit | ⏳ |
+| 4 | 🔒 **ElevenLabs-kulcs rotációja** *(a `server.log`-ba került)* — ⛔ owner-only | ⏳ |
+| 5 | ❓ a *„bring in additional developers"* mondat: visszategyem-e | ⏳ |
 
-⚠️ **Küldés előtt mindhárom kell:** `waiting-input` · `busy: false` · **ÜRES SOR**.
+---
 
-## ⚠️ Nyitott rendszer-gond
+## 📅 A JÖVŐ HÉT — a döntési csomag KÉSZ, ⛔ nem ment ki
 
-🟡 **`tsc-transplanted` PIROS** — `Buffer` → `BodyInit` típus-regresszió. ⭐ A kimenet **elkészül**
-(`dist/cli/src/_modules/` megvan), tehát futásidőben nem hiányzik semmi. DEV-nek kiadva.
+Ő kérte, hogy *„ma-holnap"* készüljünk el. **Megírtam, szó szerint kiküldésre készen** —
+`current/self-development-week-2026-09.md` §„A DÖNTÉSI CSOMAG".
 
+**Két kérdés lesz benne, egy üzenetben:**
+1. a **szabadság** *(09-14…20)* ⇄ a **pénteki céges nagy találkozó** *(09-18)* — melyik igaz, és
+   mennyi a valódi munkaidő?
+2. a három munka-irány *(sales-agent · mikromunkák · rendszer-kiadás)* közül **melyik kettőt
+   hagyjuk ÁLLNI?**
 
-🔴 **LDP make-before-break** — `BFR-MYASSISTANT-001`, **critical**. A szerver gyakrabban indul
-újra (**10,1 perc**), mint amennyi egy pipeline (**~15 perc**) ⇒ a Discord-csatorna sokat halott.
+⛔ **A kiküldés feltétele:** **ő nyit** a jövő hétre, VAGY eljön **hétfő** és ő kezd napot —
+⛔ nem ébredés után azonnal, ⛔ nem DND-ben.
+
+---
+
+## 🔨 A DEV
+
+`ccs-d5027942-mtroz7ve` — **`waiting-input`**, sor üres, *„Ready for next prompt"*.
+Minden kiadott tétele **kész vagy owner-kapun áll**. ⛔ **Nem találok ki neki munkát**
+*(a hurok-szabály: amíg nincs valódi munka, nem ütemezünk és nem terhelünk)*.
+
+---
+
+## 🛏️ MA ESEDÉKES
+
+**🛏️ Huzatot felhúzni a vastag takaróra** — `org:task:6aa4d9f1766c802935c40990`, **ma 20:00**.
+⭐ Ő kérte, hogy emlékeztessem — de **lefekvéshez** tartozik, ⛔ nem reggel 6-kor.
