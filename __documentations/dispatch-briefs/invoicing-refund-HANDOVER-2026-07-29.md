@@ -19,7 +19,7 @@ hibakezeléssel. **Owner: R1 MUST-HAVE.**
 deployolva, 3-rétegű terv) **ÉRVÉNYTELEN** — visszagörgetve.
 
 **KÖTELEZŐ ELSŐ LÉPÉS:** a tényleges állapot **saját verifikációja** (`core-no-guessing`, measure-twice):
-- `git log` + `git status` az érintett repókban (`fdp-token-service`, `fdp-templates`, `fdp-templates-nts`),
+- `git log` + `git status` az érintett repókban (`fdp-token-service *(ma: credit-service)*`, `fdp-templates`, `fdp-templates-nts`),
 - npm-en publikált bedrock-verziók, ha bármi kikerült,
 - CI/CD állapot (`fdp build-detail --project token-service`),
 - takarítanivaló (uncommitted maradékok, log-fájlok).

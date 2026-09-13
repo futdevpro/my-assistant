@@ -79,6 +79,6 @@ gyökér `CLAUDE.md` + `AGENTS.md`, és ami a doksi-hálóban a repót nevesíti
   történeti mondatok · a kizárt minták helyessége).
 - **`core-no-guessing`:** minden állítás mögé **mérés**. Az „átírtam mindet" csak akkor igaz, ha a 3(d)
   ellenőrzések lefutottak és zöldek.
-- ⚠️ **Több repót érint** (`fdp-documentations`, `my-assistant`, `master-prompter`, `fdp-token-service`,
+- ⚠️ **Több repót érint** (`fdp-documentations`, `my-assistant`, `master-prompter`, `fdp-token-service *(ma: credit-service)*`,
   `organizer`, `dynamo-e2e`, …) → **repónként külön commit**, beszédes üzenettel. A push CI/CD-t triggerel:
   **bundleld** a változásokat repónként egy commitba.

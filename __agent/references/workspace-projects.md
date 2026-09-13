@@ -87,7 +87,7 @@ TypeScript 5.5.4-gyel. Build output mindenkinél `../tgz-collection/`-ba megy
 | `dynamo-ngx-models` | `@futdevpro/ngx-dynamo-models` | 01.15.7 | Angular Dynamo frontend modellek | TS lib |
 | `dynamo-nts` | `@futdevpro/nts-dynamo` | 01.15.15 | NodeTS backend framework (Discord bot, AI, OAuth2) | Server lib |
 | `fdp-cli` | `@futdevpro/fdp-cli` | 01.15.25 | FDP CLI (`fdp` command), DevOps + Discord notify | CLI |
-| `fdp-templates` | `@futdevpro/fdp-templates` | 01.15.23 | FDP projektek modelljei (account, auth, AI, organizer, token-service) | TS lib |
+| `fdp-templates` | `@futdevpro/fdp-templates` | 01.15.23 | FDP projektek modelljei (account, auth, AI, organizer, token-service *(ma: credit-service)*) | TS lib |
 | `fdp-templates-ngx` | `@futdevpro/ngx-fdp-templates` | 1.0.0-local | Angular 18 FDP templates | Angular lib |
 | `fdp-templates-nts` | `@futdevpro/nts-fdp-templates` | 01.15.25 | NodeTS FDP templates (auth service base, errors controller, user data) | Server lib |
 | `master-control-mcp` | `@futdevpro/master-control-mcp` | 1.1.3 | MCP CLI (`mcm` command) — file system snapshot + utilities | CLI |

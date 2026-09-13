@@ -271,7 +271,7 @@ re-verify + rendes dokumentált report (`fdp-documentations/business/`), mielőt
 - **Hely:** `fdp-documentations/business/launch-readiness-2026-07-26/` — README (fastest-money index) + 5 termék-report
   (master-prompter · adventor · nis-datasets · dynamo-builder · art-tarot). Live-HTTP + kód-verifikált (file:line),
   NEM memória. Commit `f5df067`.
-- **KULCS-FELISMERÉS:** MP + Adventor UGYANAZON gaten (közös `fdp-token-service` élesítése: Stripe live + ügyvéd-ÁSZF)
+- **KULCS-FELISMERÉS:** MP + Adventor UGYANAZON gaten (közös `fdp-token-service *(ma: credit-service)*` élesítése: Stripe live + ügyvéd-ÁSZF)
   → egy akció két terméket nyit. NIS ma Gumroad-on jogi nélkül tud pénzt fogadni, de **demand-gated** (0 sales).
   Art Tarot: untrusted TLS-cert falazza (gyors fix), utána csak manuális eladás. Dynamo Builder: hónapok.
 - A „csak ügyvéd kell" framing KORRIGÁLVA (l. README).
